@@ -56,7 +56,7 @@ ProyectoFinal/
 npm run start
 ```
 
-El servidor se iniciará en `http://localhost:3000` (o el puerto configurado en `.env`)
+El servidor se iniciará en `http://localhost:3000`
 
 ## 📡 Endpoints
 
@@ -149,4 +149,5 @@ El proyecto sigue una arquitectura en capas:
 3. **Servicios** (`services/`) - Lógica de negocio
 4. **Modelos** (`models/`) - Interacción con la base de datos
 5. **Middleware** (`middleware/`) - Funcionalidades transversales (autenticación)
+
 
