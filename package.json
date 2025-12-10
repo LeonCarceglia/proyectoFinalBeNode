@@ -1,0 +1,32 @@
+{
+  "name": "proyectofinal",
+  "version": "1.0.0",
+  "description": "API REST con Node.js, Express, Firebase y JWT para gestión de productos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "firebase",
+    "jwt",
+    "api",
+    "rest",
+    "firestore"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "firebase": "^10.7.1",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
+
